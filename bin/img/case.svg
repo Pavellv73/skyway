@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="46px" viewBox="0 0 60 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="tablet" transform="translate(-114.000000, -2857.000000)" stroke="#232323" stroke-width="2">
+            <g id="Этапы-готовности" transform="translate(29.000000, 2361.000000)">
+                <g id="01" transform="translate(0.000000, 463.000000)">
+                    <g id="icon" transform="translate(86.000000, 34.000000)">
+                        <rect id="Rectangle-11" x="0" y="6" width="58" height="38" rx="2"></rect>
+                        <rect id="Rectangle-11" x="23" y="21" width="12" height="8" rx="1"></rect>
+                        <rect id="Rectangle-11" x="27" y="26" width="4" height="3" rx="1"></rect>
+                        <path d="M19,6 L19,3 L19,3 C19,1.34314575 20.343312,0 21.9942021,0 L36.0057979,0 C37.6594501,0 39,1.34651712 39,3 L39,6" id="Rectangle-11"></path>
+                        <path d="M23.0184067,23.950168 L0.135671288,16.9286196" id="Path-26"></path>
+                        <path d="M57.8827354,24.0215483 L35,17" id="Path-26" transform="translate(46.441368, 20.510774) scale(-1, 1) translate(-46.441368, -20.510774) "></path>
+                        <path d="M0,38 L3,38 C4.65685425,38 6,39.3465171 6,41 L6,44" id="Path-27"></path>
+                        <path d="M52,38 L55,38 C56.6568542,38 58,39.3465171 58,41 L58,44" id="Path-27" transform="translate(55.000000, 41.000000) scale(-1, 1) translate(-55.000000, -41.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

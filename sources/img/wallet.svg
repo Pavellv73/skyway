@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="tablet" transform="translate(-596.000000, -2851.000000)" stroke="#232323" stroke-width="2">
+            <g id="Этапы-готовности" transform="translate(29.000000, 2361.000000)">
+                <g id="03" transform="translate(480.000000, 463.000000)">
+                    <g id="icon" transform="translate(88.000000, 28.000000)">
+                        <polyline id="Rectangle-6" points="51 43.2341111 51 54 0 54 0 18 0 18 51 18 51 29.0537185"></polyline>
+                        <path d="M34,36 C34,32.1340068 37.125,29 40.9950294,29 L54,29 L54,43 L40.9950294,43 C37.1317814,43 34,39.8581267 34,36 L34,36 Z" id="Rectangle-6"></path>
+                        <circle id="Oval-3" cx="41" cy="36" r="3"></circle>
+                        <polyline id="Rectangle-7" transform="translate(23.571979, 13.564671) rotate(-30.000000) translate(-23.571979, -13.564671) " points="6.74026912 8.87303491 40.4036887 8.66530647 40.3574575 18.4640358"></polyline>
+                        <polyline id="Rectangle-7" transform="translate(28.454895, 17.828879) rotate(-15.000000) translate(-28.454895, -17.828879) " points="11.6231855 13.4128668 45.2866051 13.2051383 45.2716345 22.4526195"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,142 @@
+.block7
+  width 100%
+  height auto
+  background-color #ffffff
+
+  .block7-content.row
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    padding-bottom 100px
+    box-sizing border-box
+
+    .block7-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+
+
+    .descriptions
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+
+      .description
+        width 100%
+        height auto
+        max-width 800px
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items flex-start
+        flex-direction row
+        margin-bottom 12px
+
+        .info
+          width 20%
+          height auto
+          position relative
+          @media (min-width t-screen)
+            width 10%
+
+
+          .info-block
+            width 32px
+            height 32px
+            border 1px solid #0095ff
+            border-radius 100%
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            transition all 0.2s ease
+            margin-bottom 28px
+            &:hover
+              border 1px solid #ececec
+
+
+              p
+                color #232323
+
+            p
+              transition all 0.2s ease
+              color #0095ff
+              font-size 16px
+              font-family LatoWebBold
+              text-align center
+              font-style italic
+              @media (min-width t-screen)
+                font-size 18px
+                line-height 19px
+
+          .info-popup
+            display none
+            width 290px
+            height auto
+            background-color #ffffff
+            border-radius 3px
+            border 1px solid #0095ff
+            padding 15px 15px
+            box-sizing border-box
+            z-index 2
+            position absolute
+            top 40px
+            @media (min-width t-screen)
+              width 500px
+            @media (min-width d-screen)
+              width 700px
+
+            p
+              color #232323
+              font-size 16px
+              font-family LatoWebLight
+              text-align center
+              font-style italic
+              margin 0 auto
+              @media (min-width t-screen)
+                font-size 18px
+                line-height 19px
+
+
+
+
+
+        p
+          width 70%
+          color #232323
+          font-family LatoWebLight
+          font-size 16px
+          font-weight 300
+          text-align left
+          font-style italic
+          @media (min-width t-screen)
+            font-size 18px
+            line-height 20px
+          @media (min-width t-screen)
+            font-size 20px
+            line-height 22px
+
+
+
+
+    a.download
+      padding 0
+      margin-top 60px
+      transition all 0.3s ease
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      @media (min-width t-screen)
+        width 360px
+        br
+          display none
+

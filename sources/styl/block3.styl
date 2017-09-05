@@ -1,0 +1,299 @@
+.block3
+  width 100%
+  height auto
+  background-color #ffffff
+  overflow hidden
+
+  .block3-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 100px
+    padding-bottom 152px
+    box-sizing border-box
+    @media (min-width d-screen)
+      padding-bottom 0
+
+    .block3-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      h2
+        color #232323
+
+    .tabs-block
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content space-between
+      align-items center
+      flex-direction column
+      @media (min-width t-screen)
+        flex-direction row
+        margin-bottom 40px
+        max-width 710px
+
+
+
+
+
+    .sk-block
+      width 107%
+      height 300px
+      background-image url("img/img-2-00.png")
+      background-position -16px 88px
+      background-size 110%
+      background-repeat no-repeat
+      position relative
+      @media (min-width t-screen)
+        overflow hidden
+        background-position 53% 39%
+      @media (min-width d-screen)
+        width 1266px
+        height 684px
+        background-size 1266px
+      @media (min-width dh-screen)
+        width 1266px
+        background-size 1370px
+
+      .marker
+        width 20px
+        height 20px
+        border-radius 100%
+        background-color #FFFFFF
+        box-shadow 0 3px 10px 0 rgba(0, 0, 0, 0.15)
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        transition all 0.2s ease
+        z-index 2
+        &:hover
+          box-shadow 0 3px 13px 0 rgba(0, 0, 0, 0.15)
+
+
+
+        .center-marker
+          height 10px
+          width 10px
+          background-color #0095FF
+          border-radius 100%
+          transition all 0.2s ease
+
+
+      .marker-one
+        position absolute
+        top 157px
+        left 57px
+        @media (min-width t-screen)
+          left 194px
+        @media (min-width d-screen)
+          top 61%
+
+      .marker-two
+        position absolute
+        top 127px
+        left 167px
+        @media (min-width t-screen)
+          left 397px
+          top 89px
+        @media (min-width d-screen)
+          top 36%
+          left 53%
+
+      .marker-tree
+        position absolute
+        top 100px
+        right 50px
+        @media (min-width t-screen)
+          right 133px
+          top 34px
+        @media (min-width d-screen)
+          top 20%
+          right 20%
+
+      img
+        display none
+        width 100%
+        position absolute
+
+        z-index 1
+
+      .img-one
+        top 90px
+        left -7px
+        width 105%
+        @media (min-width t-screen)
+          top:5px
+          left -33px
+          width 108%
+        @media (min-width d-screen)
+          top 90px
+          width 100%
+          left -2px
+        @media (min-width dh-screen)
+          top 78px
+          width 108%
+          left -55px
+
+
+      .img-two
+        width 108%
+        top 89px
+        left -14px
+        @media (min-width t-screen)
+          top 4px
+          width 109%
+          left -37px
+        @media (min-width d-screen)
+          top 91px
+          width 100%
+          left 1px
+        @media (min-width dh-screen)
+          top 76px
+          width 108%
+          left -56px
+
+      .img-tree
+        width 102%
+        top 91px
+        @media (min-width t-screen)
+          width 107%
+          top 2px
+          left -25px
+        @media (min-width d-screen)
+          top 91px
+          width 100%
+          left 0
+        @media (min-width dh-screen)
+          top 78px
+          width 108%
+          left -55px
+
+
+      .img-active
+        display block
+
+      .pop-up
+        display none
+        box-sizing border-box
+        height auto
+        width 290px
+        border 1px solid #ECECEC
+        border-radius 4px
+        background-color #FFFFFF
+        box-shadow 0 8px 20px 0 rgba(0, 0, 0, 0.05)
+        padding 12px
+        position relative
+        box-sizing border-box
+        z-index 2
+        &:before
+          content ""
+          width 20px
+          height 20px
+          background-color #ffffff
+          border 1px solid #ECECEC
+          border-bottom none
+          border-right none
+
+
+
+        p
+          color #232323
+          font-family LatoWebMedium
+          font-size 16px
+          line-height 19px
+          margin-bottom 5px
+          text-align left
+
+        span
+          color: #232323
+          font-family LatoWebLight
+          font-size 14px
+          font-weight 300
+          line-height 17px
+          text-align left
+
+      .pop-one
+        position absolute
+        top 196px
+        left 12px
+        &:before
+          position absolute
+          top -11px
+          left 43px
+          transform rotate(45deg)
+        @media (min-width t-screen)
+          top 128px
+          left 230px
+          width 474px
+          &:before
+            position absolute
+            top 25px
+            left -9px
+            transform rotate(-45deg)
+        @media (min-width d-screen)
+          top 57%
+
+      .pop-two
+        position absolute
+        top 170px
+        left 12px
+        &:before
+          position absolute
+          top -11px
+          left 154px
+          transform rotate(45deg)
+        @media (min-width t-screen)
+          top 128px
+          left 230px
+          width 474px
+          &:before
+            position absolute
+            top -11px
+            left 161px
+            transform rotate(45deg)
+        @media (min-width d-screen)
+          top 42%
+          left 285px
+          &:before
+            position absolute
+            top -11px
+            left 93%
+
+
+      .pop-tree
+        position absolute
+        top 145px
+        left 12px
+        &:before
+          position absolute
+          top -11px
+          left 234px
+          transform rotate(45deg)
+        @media (min-width t-screen)
+          top 80px
+          left 230px
+          width 474px
+          &:before
+            position absolute
+            top -11px
+            left 377px
+            transform rotate(45deg)
+        @media (min-width d-screen)
+          left 39%
+          &:before
+            position absolute
+            top 38%
+            left 98%
+            transform rotate(137deg)
+
+
+      .pop-active
+        display block!important
+
+

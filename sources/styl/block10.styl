@@ -1,0 +1,60 @@
+.block10
+  width 100%
+  height auto
+  background-image url("img/img-3.png")
+  background-repeat no-repeat
+  background-size cover
+  background-position center
+
+
+
+  .block10-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 42px
+    padding-bottom 40px
+    box-sizing border-box
+    @media (min-width t-screen)
+      padding-top 51px
+      padding-bottom 57px
+      width 55%
+      align-items flex-start
+      margin-left 50px
+    @media (min-width d-screen)
+      margin-left 48px
+
+    p
+      color #ffffff
+      font-family LatoWebMedium
+      font-size 18px
+      font-weight 400
+      line-height 20px
+      margin-bottom 32px
+      @media (min-width t-screen)
+        text-align left
+        font-size 20px
+        line-height 24px
+      @media (min-width d-screen)
+        font-size 36px
+        line-height 40px
+        max-width 651px
+
+    button
+      width 230px
+      height 58px
+      border-radius 3px
+      background-color #ffffff
+      border none
+      color #0095ff
+      font-family LatoWebMedium
+      font-size 12px
+      font-weight 700
+      letter-spacing 1px
+      text-transform uppercase
+      cursor pointer
+      transition all 0.2s ease
+      &:hover
+        background-color #f7f7f7

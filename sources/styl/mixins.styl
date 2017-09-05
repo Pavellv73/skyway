@@ -1,0 +1,315 @@
+dh-screen = 1440px
+d-screen = 1280px
+t-screen = 768px
+h-screen = 320px
+
+.cnt
+  box-sizing border-box
+  padding 0 12px
+  width: 100%
+  @media (min-width: t-screen)
+    padding 0 29px
+    width 100%
+  @media (min-width: d-screen)
+    padding 0 48px
+    margin 0 auto
+  @media (min-width: dh-screen)
+    padding 0 128px
+
+.row
+  max-width 1280px
+  margin 0 auto
+  display flex
+  display -webkit-flex
+
+h1
+  color #ffffff
+  font-family LatoWebLight
+  font-size 32px
+  font-weight 300
+  line-height 36px
+  @media (min-width: t-screen)
+    font-size 46px
+  @media (min-width: d-screen)
+    font-size 54px
+
+h2
+  font-family LatoWebLight
+  font-size 24px
+  font-weight 300
+  @media (min-width: t-screen)
+    font-size 32px
+  @media (min-width: d-screen)
+    font-size 36px
+    line-height 45px
+
+
+h3
+  font-family LatoWebLight
+  font-size 18px
+  font-weight 600
+  @media (min-width: t-screen)
+    font-size 24px
+  @media (min-width: d-screen)
+    font-size 30px
+
+a
+  color rgba(255, 255, 255, 0.8)
+  font-family LatoWebLight
+  font-size 14px
+  font-weight 500
+  line-height 17px
+  transition all 0.2s ease
+  &:hover
+    color #FFFFFF
+  @media (min-width: h-screen)
+    font-size 16px
+    line-height 19px
+    font-weight 700
+  @media (min-width d-screen)
+    font-weight 500
+    font-size 14px
+    line-height 15px
+
+.button-white
+  height 58px
+  width 230px
+  border-radius 3px
+  background-color #FFFFFF
+  color: #0095FF
+  font-family LatoWebMedium
+  text-transform uppercase
+  font-size 12px
+  font-weight 500
+  letter-spacing 1px
+  line-height 15px
+  text-align center
+  border none
+  transition all 0.2s ease
+  box-shadow 0 4px 8px 0 rgba(0,0,0,0.12)
+  &:hover
+    box-shadow 0 4px 12px 0 rgba(0,0,0,0.24)
+    font-weight 900
+
+.tab
+  width 247px
+  height 49px
+  box-sizing border-box
+  border: 1px solid #0095FF;
+  border-radius 3px
+  padding 16px 0
+  display block
+  background-color transparent
+  margin-bottom 11px
+  color #0095FF
+  font-family LatoWebMedium
+  font-size 12px
+  letter-spacing 1px
+  line-height 15px
+  text-align center
+  text-transform uppercase
+  transition all 0.2s ease
+  cursor pointer
+  @media (min-width t-screen)
+    margin-bottom 0
+    margin-right 5px
+    margin-left 5px
+  &:hover
+    font-weight bold
+    color #0095FF
+
+.tab-active
+  width 247px
+  height 49px
+  box-sizing border-box
+  border: 1px solid #ECECEC;
+  border-radius 3px
+  padding 16px 0
+  display block
+  background-color transparent
+  margin-bottom 11px
+  color #232323
+  font-family LatoWebMedium
+  font-size 12px
+  letter-spacing 1px
+  line-height 15px
+  text-align center
+  text-transform uppercase
+  transition all 0.2s ease
+  cursor pointer
+  @media (min-width t-screen)
+    margin-bottom 0
+  &:hover
+    font-weight: bold;
+
+
+.investments-info
+  width 100%
+  height auto
+  display flex
+  display -webkit-flex
+  justify-content center
+  align-items center
+  flex-direction column
+  @media (min-width t-screen)
+    flex-direction row
+    justify-content center
+    align-items flex-start
+    margin-bottom 40px
+
+  .investment
+    width 246px
+    height auto
+    border-radius 1px
+    border 1px solid #ececec
+    background-color #ffffff
+    display flex
+    display -webkit-flex
+    justify-content center
+    align-items center
+    flex-direction column
+    box-sizing border-box
+    padding 30px 12px
+    margin-bottom 12px
+    @media (min-width t-screen)
+      margin-bottom 0px
+      margin-left 5px
+      margin-right 5px
+    @media (min-width d-screen)
+      width 316px
+      margin-left 9px
+      margin-right 9px
+      padding 30px 20px
+
+    .investment-img
+      width 100%
+      height 60px
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      overflow hidden
+      margin-bottom 33px
+
+      img
+        width auto
+        height auto
+
+    .investment-text
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+
+      p
+        color #232323
+        font-family LatoWebBold
+        font-size 14px
+        font-weight 400
+        margin-bottom 12px
+        text-align center
+        margin-top 0
+        @media (min-width d-screen)
+          font-size 16px
+
+      span
+        color #232323
+        font-family LatoWebLight
+        font-size 14px
+        font-weight 300
+        text-align center
+        line-height 15px
+        @media (min-width d-screen)
+          font-size 16px
+          line-height 17px
+
+////---PLACEHOLDERS---////
+input[type='text']::-webkit-input-placeholder {
+  opacity: 1;
+  color: #bfbfbf !important;
+}
+
+input[type='text']::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+input[type='text']:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input[type='text']:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  color: #bfbfbf !important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

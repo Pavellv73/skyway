@@ -1,0 +1,247 @@
+.block4
+  width 100%
+  height auto
+  background-color #F9F9F9
+
+  .block4-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    padding-bottom 52px
+    box-sizing border-box
+
+    .block4-head
+      width 100%
+      height auto
+      margin-bottom 32px
+      @media (min-width t-screen)
+        margin-bottom 60px
+
+
+      h2
+        margin-bottom 12px
+
+      p
+        color #232323
+        font-family "myriad-set-pro"
+        font-size 16px
+        font-weight 100
+        line-height 17px
+        text-align center
+        @media (min-width t-screen)
+          font-size 19px
+          font-weight 300
+          line-height 22px
+        @media (min-width d-screen)
+          font-size 20px
+          line-height 24px
+          max-width 984px
+          margin 0 auto
+
+    .steps-block
+      width 100%
+      height 120px
+      background-image url("img/timeline320.png")
+      background-repeat no-repeat
+      background-size 296px 74px
+      background-position center
+      margin-bottom 30px
+      position relative
+      @media (min-width t-screen)
+        background-image url("img/timeline768.png")
+        background-size 710px 91px
+      @media (min-width d-screen)
+        background-image url("img/timeline1280.png")
+        background-size 1184px 107px
+
+      .dev, .craft, .buy
+        position absolute
+        line-height 14px
+        font-size 14px
+
+      .dev
+        left calc(50vw - 169px)
+        top -10px
+        @media (min-width t-screen)
+          left calc(50vw - 373px)
+          top 10px
+        @media (min-width d-screen)
+          left calc(50vw - 51%)
+          br
+            display none
+        @media (min-width dh-screen)
+          left calc(50vw - 60%)
+
+
+      .craft
+        left calc(50vw - 53px)
+        top 10px
+        @media (min-width t-screen)
+          left calc(50vw - 70px)
+          top 0
+        @media (min-width d-screen)
+          left calc(50vw - 12%)
+          br
+            display none
+        @media (min-width dh-screen)
+          left calc(50vw - 18%)
+
+
+
+
+      .buy
+        top -10px
+        left calc(50vw - -81px)
+        @media (min-width t-screen)
+          left calc(50vw - -253px)
+          top 10px
+        @media (min-width d-screen)
+          left calc(50vw - -33%)
+          br
+            display none
+        @media (min-width dh-screen)
+          left calc(50vw - -28%)
+
+
+
+
+
+    .time-block
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      p
+        color #E26E4A
+        font-family LatoWebMedium
+        font-size 16px
+        font-style italic
+        line-height 19px
+        text-align center
+        @media (min-width t-screen)
+          font-size 18px
+          width 83%
+          margin 0 auto
+        @media (min-width d-screen)
+          width 584px
+          font-size 20px
+          line-height 25px
+
+    .investments
+      width 100%
+      height auto
+
+      .investments-head
+        width 100%
+        height auto
+        margin-bottom 40px
+
+        h4
+          color #232323
+          font-family LatoWebMedium
+          font-size 16px
+          font-weight 400
+          text-align center
+          @media (min-width t-screen)
+            font-size 18px
+          @media (min-width d-screen)
+            font-size 20px
+
+      .investments-info
+        width 100%
+        height auto
+        display flex
+        display -webkit-flex
+        justify-content center
+        align-items center
+        flex-direction column
+        @media (min-width t-screen)
+          flex-direction row
+          justify-content center
+          align-items flex-start
+          margin-bottom 40px
+
+        .investment
+          width 246px
+          height 234px
+          border-radius 1px
+          border 1px solid #ececec
+          background-color #ffffff
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          flex-direction column
+          box-sizing border-box
+          padding 30px 12px
+          margin-bottom 12px
+          @media (min-width t-screen)
+            margin-bottom 0px
+            margin-left 5px
+            margin-right 5px
+          @media (min-width d-screen)
+            width 316px
+            margin-left 9px
+            margin-right 9px
+            padding 30px 20px
+
+          .investment-img
+            width 100%
+            height 60px
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            overflow hidden
+            margin-bottom 33px
+
+            img
+              width auto
+              height auto
+
+          .investment-text
+            width 100%
+            height auto
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+            flex-direction column
+
+            p
+              color #232323
+              font-family LatoWebBold
+              font-size 14px
+              font-weight 400
+              margin-bottom 12px
+              text-align center
+              margin-top 0
+              @media (min-width d-screen)
+                font-size 16px
+
+            span
+              color #232323
+              font-family LatoWebLight
+              font-size 14px
+              font-weight 300
+              text-align center
+              line-height 15px
+              @media (min-width d-screen)
+                font-size 16px
+                line-height 17px
+
+      p
+        font-family LatoWebMedium
+        font-size 14px
+        font-weight 400
+        color #232323
+        line-height 16px
+        margin-top 28px
+        @media (min-width d-screen)
+          font-size 16px
+
+        span
+          color #d9583a

@@ -1,0 +1,175 @@
+.block5
+  width 100%
+  height auto
+  background-color #ffffff
+
+  .block5-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    padding-bottom 100px
+    box-sizing border-box
+    position relative
+
+    .block5-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      h2
+        margin-bottom 12px
+
+      p
+        color #232323
+        font-family "myriad-set-pro"
+        font-size 16px
+        font-weight 100
+        line-height 23px
+        text-align center
+
+
+    .slider-tabs
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      flex-direction column
+      align-items center
+      margin-bottom 40px
+      @media (min-width t-screen)
+        flex-flow row
+
+      .tab
+        margin-bottom 12px
+
+    .slider-2
+      display none
+
+
+
+    .slick-prev1
+      top: 63%
+      width 16px
+      height 44px
+      left 0px
+      background-image url("img/aroow-left.png")
+      background-position center
+      background-size auto
+      background-repeat no-repeat
+      z-index 2
+      position absolute
+      cursor pointer
+      @media (min-width d-screen)
+        left -25px
+      &:before
+        display none
+
+
+    .slick-next1
+      top: 63%
+      right 0px
+      width 16px
+      height 44px
+      background-image url("img/aroow-right.png")
+      background-position center
+      background-size auto
+      background-repeat no-repeat
+      z-index 2
+      position absolute
+      cursor pointer
+      @media (min-width d-screen)
+        right -25px
+
+
+      &:before
+        display none
+
+    .slick-prev2
+      top: 63%
+      width 16px
+      height 44px
+      left 0px
+      background-image url("img/aroow-left.png")
+      background-position center
+      background-size auto
+      background-repeat no-repeat
+      z-index 2
+      position absolute
+      cursor pointer
+      @media (min-width d-screen)
+        left -25px
+      &:before
+        display none
+
+
+    .slick-next2
+      top: 63%
+      right 0px
+      width 16px
+      height 44px
+      background-image url("img/aroow-right.png")
+      background-position center
+      background-size auto
+      background-repeat no-repeat
+      z-index 2
+      position absolute
+      cursor pointer
+      @media (min-width d-screen)
+        right -25px
+
+
+      &:before
+        display none
+
+
+    .slick-slider
+      width 100%
+      height 470px
+      position relative
+      @media (min-width d-screen)
+        height 330px
+
+      .slick-slide
+        width 250px
+        height 490px
+        @media (min-width t-screen)
+          width 230px
+          height 400px
+          margin-right 5px
+
+
+        .slide-img
+          width auto
+          height auto
+          overflow hidden
+          display flex
+          display -webkit-flex
+          justify-content center
+          align-items center
+          margin-bottom 25px
+
+          a
+            width 100%
+            height auto
+            display flex
+            display -webkit-flex
+            justify-content center
+            align-items center
+
+            img
+              width 90%
+              height auto
+
+        p
+          color #232323
+          font-family "myriad-set-pro"
+          font-size 14px
+          font-weight 100
+
+    .dots
+      display none
+

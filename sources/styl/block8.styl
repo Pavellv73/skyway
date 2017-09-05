@@ -1,0 +1,114 @@
+.block8
+  width 100%
+  height auto
+  background-color #f9f9f9
+
+  .block8-content
+    width 100%
+    height auto
+    justify-content center
+    align-items center
+    flex-direction column
+    padding-top 40px
+    padding-bottom 100px
+    box-sizing border-box
+
+    .block8-head
+      width 100%
+      height auto
+      margin-bottom 40px
+
+      h2
+        margin-bottom 12px
+
+      p
+        color #232323
+        font-family "myriad-set-pro"
+        font-size 16px
+        font-weight 100
+        line-height 23px
+        @media (min-width t-screen)
+          font-size 18px
+          max-width 710px
+          margin 0 auto
+        @media (min-width d-screen)
+          max-width 984px
+          font-size 22px
+          line-height 25px
+
+    .tab-dinamic
+      width 100%
+      height auto
+      display flex
+      display -webkit-flex
+      justify-content center
+      align-items center
+      flex-direction column
+      margin-bottom 60px
+      @media (min-width t-screen)
+        flex-flow row
+      @media (min-width d-screen)
+        flex-flow wrap
+
+      .tab
+        max-width 184px
+        display block
+
+      .tab-active
+        display block
+
+
+    .svg-images
+      width 100%
+      height auto
+      
+      .svg-1
+        display none
+        width 100%
+        height 270px
+        background-image url("img/graphgic-1.svg")
+        background-position center
+        background-size 297px 268px
+        background-repeat no-repeat
+        @media (min-width t-screen)
+          height 440px
+          background-image url("img/svg-1-768.png")
+          background-size 590px 430px
+        @media (min-width d-screen)
+          height 490px
+          background-image url("img/graphgic-1.svg")
+          background-size 1100px 580px
+
+      .svg-2
+        display none
+        width 100%
+        height 270px
+        background-image url("img/graphgic-2.svg")
+        background-position center
+        background-size 297px 268px
+        background-repeat no-repeat
+        @media (min-width t-screen)
+          height 440px
+          background-size 590px 430px
+        @media (min-width d-screen)
+          height 490px
+          background-size 1100px 580px
+
+      .svg-3
+        display none
+        width 100%
+        height 270px
+        background-image url("img/graphgic-3.svg")
+        background-position center
+        background-size 297px 268px
+        background-repeat no-repeat
+        @media (min-width t-screen)
+          height 440px
+          background-size 590px 430px
+        @media (min-width d-screen)
+          height 490px
+          background-size 1100px 580px
+
+      .svg-active
+        display block
+
